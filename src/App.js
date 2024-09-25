@@ -1,13 +1,20 @@
 import logo from './logo.svg';
+import imagemEu from './components/img/eu.jpg';
 import './App.css';
 
 function App() {
+	const nome = "WILLIAN ELISEU DA SILVA";
+	const curso = "CURSO DE REACT";
+	const funcao = () => {
+		return nome;
+	}
+
 	return (
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
-					Edite <code>src/App.js</code> e salve para recarregar.
+					Meu nome é: {funcao()}
 				</p>
 				<a
 					className="App-link"
@@ -15,8 +22,9 @@ function App() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Aprenda React
+					Estou aprendendo: {curso}
 				</a>
+				<img src={imagemEu} />
 			</header>
 		</div>
 	);
