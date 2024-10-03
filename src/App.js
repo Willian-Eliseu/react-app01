@@ -7,8 +7,7 @@ function App() {
 	return (
 		<>
 			<Header/>
-			<Corpo/>
-			
+			<Corpo/>			
 		</>
 	);
 }

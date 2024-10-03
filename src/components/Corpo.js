@@ -2,9 +2,15 @@ import React from "react";
 import Dados from './Dados';
 export default function Corpo() {
     
-    const nomeInicial = 'WILLIAN ELISEU DA SILVA';
+    const nomeInicial = () => {
+        return 'WILLIAN ELISEU DA SILVA';
+    };
 	const emailInicial = 'w.eliseu@gmail.com';
 	const celularInicial = '(14)98102-4180';
+
+    const somar = (v1, v2) => {
+        return v1+v2;
+    }
 
     return (
         <main>
@@ -27,6 +33,7 @@ export default function Corpo() {
 				nome={nomeInicial}
 				email={emailInicial}
 				celular={celularInicial}
+                somar={somar}
 			/>
         </main>
     )
