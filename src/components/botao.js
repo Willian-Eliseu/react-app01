@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-export default function Botao() {
+export default function Botao({count, onClick}) {
     const products = [
         { title: 'Cabbage', isFruit: false, id: 1 },
         { title: 'Garlic', isFruit: false, id: 2 },
@@ -19,16 +19,16 @@ export default function Botao() {
         </li>
     );
 
-    const [count, setCount] = useState(0);
+    // const [count, setCount] = useState(0);
 
-    function handleClick(){
-        setCount(count + 1);
-    }
+    // function handleClick(){
+    //     setCount(count + 1);
+    // }
 
     return (
         <>
             {/* <ul>{listItems}</ul> */}
-            <button onClick={handleClick}>
+            <button onClick={onClick}>
                 Clicked {count} times
             </button>
         </>
