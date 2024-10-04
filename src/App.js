@@ -11,6 +11,7 @@ function App() {
 				<Header/>
 				<Corpo/>
 				<Botao/>
+				<Botao/>
 			</section>			
 		</>
 	);
