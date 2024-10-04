@@ -6,11 +6,12 @@ import './App.css';
 function App() {
 	return (
 		<>
-			<Header/>
-			<Corpo/>			
+			<section className='caixa'>
+				<Header/>
+				<Corpo/>
+			</section>			
 		</>
 	);
 }
-// aula 07
 
 export default App;

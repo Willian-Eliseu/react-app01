@@ -50,3 +50,10 @@
 .texto{
   color: #0f0;
 }
+
+.caixa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
