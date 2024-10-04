@@ -14,8 +14,8 @@ export default function Corpo() {
 
     return (
         <main>
-            <h2>Título do corpo</h2>
-            <p>
+            <h2 class="text-center">Título do corpo</h2>
+            <p className="texto">
                 Lorem Ipsum is simply dummy text of the printing 
                 and typesetting industry. Lorem Ipsum has been 
                 the industry's standard dummy text ever since the 

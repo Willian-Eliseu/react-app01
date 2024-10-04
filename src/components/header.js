@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <header>
             <img src={Eu} />
-            <h1>Curso de React</h1>
+            <h1 class="text-center red">Curso de React</h1>
         </header>
     )
 }
