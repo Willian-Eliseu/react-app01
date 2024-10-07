@@ -1,6 +1,7 @@
 {
   "name": "app01",
   "version": "0.1.0",
+  "homepage": "http://localhost/react-app01/build",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
